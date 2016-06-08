@@ -1,0 +1,266 @@
+
+body{
+	font-family: 'Roboto';
+	font-weight: 300;
+	background-color: #DFDFDF;
+
+}
+
+header{
+	height:113px;
+	background-color: #009688;
+}
+
+.icono{
+	width: 37px;
+	height: 37px;
+    border-radius: 20px;
+    margin:10px 10px 10px 13px;
+   	float:left;
+}
+
+.fila1 h5{
+	margin-top: 12px;
+	margin-bottom: 0;
+}
+
+li h5{
+	margin-bottom: 3px;
+    margin-top: 17px;
+}
+
+.gian{
+	float:none;
+	margin-left: 13px;
+}
+
+.position-relative{
+	position: relative;
+	border-bottom: 1px solid gray;
+}
+
+.icon-search {
+    position: absolute;
+    top: 27px;
+    left: 31px;
+    color: rgba(128, 128, 128, 0.39);
+    font-weight: bold;
+}
+
+.position-relative input {
+	padding: 9px 0px 9px 52px;
+    border-radius: 6px;
+	width: 93%;
+    /* width: 355px;*/
+    margin: 16px 13px;
+    border: 1px solid rgba(158, 158, 158, 0.39);
+}
+
+.col4, .fila1, .foot{
+	background-color: #EEEEEE;
+}
+
+.col4{
+	border-right: 1px solid rgba(128, 128, 128, 0.28);
+	border-bottom: 1px solid rgba(128, 128, 128, 0.28);
+}
+
+li{
+	list-style: none;
+	border:1px solid transparent;
+}
+
+.miembrosChat{
+	height: 591px;
+	overflow-y:scroll; 
+	overflow-x:hidden; 
+}
+
+.miembrosChat li{
+	border-bottom: 1px solid gray;
+}
+
+ul{
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+
+span{
+	float: right;
+    margin-top: 10px;
+    margin-right: 14px;
+}
+
+.container{
+	background-color: white;
+	margin-bottom: 70px;
+	box-shadow: 0px 2px 5px 1px #999999;
+	position: relative;
+	top: -95px;
+}
+
+.icono1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 22px;
+	margin: 12px 10px 0px 13px;	
+	float:left;
+}
+
+.icommoon {
+    float: right;
+    margin: 19px 16px 0px 11px;
+    font-size: 17px;
+    color: rgba(128, 128, 128, 0.9);
+}
+
+.fila1{
+	position: relative;
+}
+.icommoon1{
+	position: absolute;
+	font-size: 17px;
+	color: rgba(128, 128, 128, 0.9);
+
+}
+
+.icon-dots-three-vertical{
+	right: 30px;
+    top: 20px;
+}
+
+.icon-attachment{
+	top: 20px;
+	right: 76px;
+}
+
+.colright{
+	background-image: url(../image/chat-panel-bg.png);
+	background-color: rgba(231, 227, 222, 0.66);
+}
+
+.colright p{
+	margin-bottom: 0px;
+	margin-right: 8px;
+	margin-left: 14px;
+}
+
+.colright ul li:first-child{
+	margin-top: 28px;
+}
+
+.colright ul li {
+    width: 42%;
+    margin-left: 25px;
+    margin-bottom: 2px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.colright h6{
+	font-size: 13px;
+	margin-bottom: 3px;
+	margin-left: 14px;
+}
+
+.colright li p:last-child{
+	text-align: right;
+	font-size: 12.5px;
+}
+
+.colright ul li:nth-child(4), .colright ul li:nth-child(5){
+	width: 27.5%;
+	padding-top: 10px;
+	float: right;
+	background-color: #DCF8C6;
+	/*color: #B8C99D;*/
+}
+
+.colright ul li:nth-child(5){
+	clear: right;
+    width: 21.5%;
+}
+
+.colright ul li:nth-child(6){
+	clear: both;
+}
+
+.andrea{
+	color: #62DCD1;
+}
+
+.mariana{
+	color: #EC97BE;
+}
+
+.mariapaula{
+	color: rgba(0, 148, 133, 0.64);
+}
+
+.aldo{
+	color: #ECD16E;
+}
+
+.colright ul{
+	height: 611px;
+	overflow-y:scroll; 
+	overflow-x:hidden; 
+	border-top: 1px solid rgba(128, 128, 128, 0.28);
+	border-bottom: 1px solid rgba(128, 128, 128, 0.28);
+}
+
+/*-----SCROLL PERSONALIZADO-----*/
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb{
+	background-color:rgba(128, 128, 128, 0.32);
+}
+
+::-webkit-scrollbar-track-piece  {
+	height: auto;
+}
+
+/*-------------------------------*/
+
+.icommoon2{
+	font-size: 25px;
+	color: rgba(128, 128, 128, 0.9);
+	margin: 0px 15px;
+	vertical-align: middle;
+}
+
+.foot input{
+	padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 11px;
+    border-radius: 6px;
+    border: 1px solid rgba(158, 158, 158, 0.39);
+    width: 84.93%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.icon-crying.icommoon2,
+.icon-sleepy.icommoon2,
+.icon-confused.icommoon2,
+.icon-shocked.icommoon2,
+.icon-evil.icommoon2,
+.icon-angry.icommoon2,
+.icon-wink.icommoon2,
+.icon-sad.icommoon2,
+.icon-tongue.icommoon2,
+.icon-happy.icommoon2{
+	font-family:'icomoon'!important;
+	background-color: yellow;
+    border-radius: 50%;
+}
+
+.emoticones{
+	display: none;
+    position: absolute;
+    bottom: 39px;
+    z-index: 100;
+}
