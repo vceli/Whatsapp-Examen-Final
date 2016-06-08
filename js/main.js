@@ -10,6 +10,7 @@ $(document).ready(function(){
 	writeText();
 	writePerson();
 	emociones();
+	$("#letrabuscando").on("keyup",buscar);
 })
 
 
@@ -62,27 +63,57 @@ function emociones(){
 
 // ============= BUSCADOR =====================
 
-function buscador(){
+function buscar(){
+	var tarjetas = $(".tarjeta");
+	var tarjetass = $(".tarjeta h5");
+	var texto = $("#letrabuscando").val();
+	texto = texto.toLowerCase();
+	tarjetas.show();
+	for(var i=0; i< tarjetas.length;i++){
+		var contenido = tarjetass.eq(i).text();
+		contenido = contenido.toLowerCase();
+		var index = contenido.indexOf(texto);
+		if(index == -1){
+			tarjetas.eq(i).hide();
+		}
 
-	$("#buscando").keyup(function(){
-
-		var buscar = $(this).val();
-		var count = 0;
-
-		$(".miembrosChat li h5").each(function(){
-			if($(this).text().search(new RegExp(buscar,"i")) < 0){
-				$(this).fadeOut();
-			}else{
-				$(this).show();
-				count++;
-			}
-		})
-
-
-	})
-
+	}
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function buscador(){
+
+// 	$("#buscando").keyup(function(){
+
+// 		var buscar = $(this).val();
+// 		var count = 0;
+
+// 		$(".miembrosChat li h5").each(function(){
+// 			if($(this).text().search(new RegExp(buscar,"i")) < 0){
+// 				$(this).fadeOut();
+// 			}else{
+// 				$(this).show();
+// 				count++;
+// 			}
+// 		})
+
+
+// 	})
+
+// }
 
 
 // function conversacion(){
